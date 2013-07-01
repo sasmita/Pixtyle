@@ -3,7 +3,7 @@ Pixtyle
 
 ### PROJECT NAME
 
-Pixtyle (TM)
+Pixtyle
 
 ### PROJECT DESCRIPTION
 
@@ -11,7 +11,7 @@ Pixtyle is an open source android application where you can add different styles
 
 ### CONTACT
 
-Written by Sisinty Sasmita Patra, email:spatra@pdx.edu / sasmi.sashi@gmail.com
+Sisinty Sasmita Patra, email:spatra@pdx.edu / sasmi.sashi@gmail.com
 
 ### LICENSE
 
