@@ -1,19 +1,19 @@
 Pixtyle
 =======
 
-PROJECT NAME
+### PROJECT NAME
 
 Pixtyle (TM)
 
-PROJECT DESCRIPTION
+### PROJECT DESCRIPTION
 
 Pixtyle is an open source android application where you can add different styles to your pictures.
 
-CONTACT
+### CONTACT
 
 Written by Sisinty Sasmita Patra, email:spatra@pdx.edu / sasmi.sashi@gmail.com
 
-LICENSE
+### LICENSE
 
 Copyright (C) 2013 Sisinty Sasmita Patra
 
