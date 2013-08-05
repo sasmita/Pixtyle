@@ -9,9 +9,13 @@ Pixtyle
 
 Pixtyle is an open source android application where you can add different styles to your pictures.
 
-### CONTACT
+### CONTACT DETAILS
 
 Sisinty Sasmita Patra, email:spatra@pdx.edu / sasmi.sashi@gmail.com
+
+### REPOSITORY LINK
+
+Here is the link to repository: https://github.com/sasmita/Pixtyle
 
 ### LICENSE
 
