@@ -26,3 +26,6 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 To find more details, see http://www.gnu.org/licenses/.
+
+Please see the file License in this distribution for license terms. Here is the link
+https://github.com/sasmita/Pixtyle/blob/master/License.txt
