@@ -21,7 +21,7 @@
                                    ##      INSTALLATION GUIDE FOR DEVELOPERS
                                          ----------------------------------- 
  
-# Instructions to build the Application:
+###Instructions to build the Application:
 
 1. The development system should meet the following requirements:
    JDK 1.6
