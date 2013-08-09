@@ -18,8 +18,8 @@
  * 
  */
 
-                                          INSTALLATION GUIDE FOR DEVELOPERS
-                                         ----------------------------------- 
+INSTALLATION GUIDE FOR DEVELOPERS
+----------------------------------- 
  
  Instructions to build the Application:
 
