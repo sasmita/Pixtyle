@@ -20,7 +20,8 @@ Application developed using Android 4.3.3 API level 18.
 
 ### CONTACT DETAILS
 
-Sisinty Sasmita Patra, email:spatra@pdx.edu / sasmi.sashi@gmail.com
+Name : Sisinty Sasmita Patra
+email: spatra@pdx.edu / sasmi.sashi@gmail.com
 
 ### REPOSITORY LINK
 
