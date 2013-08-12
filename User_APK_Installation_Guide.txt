@@ -24,22 +24,17 @@ TO USE THE APPLICATION ON AN ANDROID DEVICE
  Installing Applications With Android SDK
  ----------------------------------------
 
-1. Download and install the Google Android SDK program and the Android USB drivers
-   Here is the following link http://code.google.com/android/intro/installing.html
+1. Dowanld and isntall the Android SDK : http://developer.android.com/sdk/index.html
 
-2. Inorder to allow the installation of application from other sources, maodify Android's settings.
-   settings -> Application settings -> enable "Unknown Sources". 
-   Also under “Settings,” select “SD Card” and “Phone Storage,” and finally enable “Disable Use for USB Storage”
- 
-3. Open Command Prompt and type the following: adb install path/filename.apk
+2. Inorder to install/debug the application on the Android device, go to 
+   Android's settings -> { } Developer options -> check  "USB debugging"
+   
+3. Connect the android device using USB cable and run the application from the eclise ADT.
 
 4. Now Application is ready to use.
 
    
  REFERENCES:
  -----------
- For detailed instructions on installing, Please follow the below links:
 
- http://getfreeapplication.blogspot.com/2011/05/android-tips-how-to-install-apk-file-on.html
-
- http://www.talkandroid.com/guides/install-apk-files-on-android
+1. http://developer.android.com/training/basics/firstapp/running-app.html
