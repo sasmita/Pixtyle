@@ -44,3 +44,8 @@ Here is the link to issues: https://github.com/sasmita/Pixtyle/issues
 Please see the file License in this distribution for license terms. Here is the link
 https://github.com/sasmita/Pixtyle/blob/master/License.txt
 
+### REFERENCES
+
+http://developer.android.com/index.html
+
+http://www.linux.com/learn/tutorials/722038-android-calling-the-camera
