@@ -26,6 +26,10 @@ Sisinty Sasmita Patra, email:spatra@pdx.edu / sasmi.sashi@gmail.com
 
 Here is the link to repository: https://github.com/sasmita/Pixtyle
 
+### ISSUES
+
+Here is the link to issues: https://github.com/sasmita/Pixtyle/issues
+
 ### LICENSE
 
 Please see the file License in this distribution for license terms. Here is the link
