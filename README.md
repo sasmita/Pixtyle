@@ -31,13 +31,13 @@ Here is the link to repository: https://github.com/sasmita/Pixtyle
 
 ### DOCUMENTS
 
-USER_DOCS link: https://github.com/sasmita/Pixtyle/blob/master/User_Doc.txt
+USER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/User_Doc.txt
 
-DEVELOPER_DOCS link: https://github.com/sasmita/Pixtyle/blob/master/Developer_Doc.txt
+DEVELOPER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/Developer_Doc.txt
 
-### ISSUES
+### ISSUES / ENHANCEMENTS
 
-Here is the link to issues: https://github.com/sasmita/Pixtyle/issues
+Link to issues/enhancements: https://github.com/sasmita/Pixtyle/issues
 
 ### LICENSE
 
