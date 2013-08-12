@@ -31,7 +31,7 @@ Here is the link to repository: https://github.com/sasmita/Pixtyle
 
 USER_DOCS link: https://github.com/sasmita/Pixtyle/blob/master/User_Doc.txt
 
-DEVELOPER_DOCS limk: https://github.com/sasmita/Pixtyle/blob/master/Developer_Doc.txt
+DEVELOPER_DOCS link: https://github.com/sasmita/Pixtyle/blob/master/Developer_Doc.txt
 
 ### ISSUES
 
