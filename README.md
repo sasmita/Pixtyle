@@ -15,7 +15,9 @@ Pixtyle
 
 ### PROJECT DESCRIPTION
 
-Pixtyle is an open source android application where you can add different styles to your pictures.
+Pixtyle is an open source android application where you can add different styles to your pictures. It captures image using a camera button. There are buttons for each style, for example user can use 
+Black and white button to view Black and white image. 
+
 Application developed using Android 4.3.3 API level 18.
 
 ### CONTACT DETAILS
