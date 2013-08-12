@@ -21,33 +21,26 @@ INSTALLATION GUIDE FOR DEVELOPERS
  
  Instructions to build the Application:
 
-1. The development system should meet the following requirements:
-   JDK 1.6
-   Follow link: developer.apple.com/java
+1. Download Android SDK from : http://developer.android.com/sdk/index.html
 
-   Install Eclipse IDE, Juno or later from http://www.eclipse.org/downloads
+2. Create an Android virtual device 
 
-2. Download Android SDK.
-   Follow link: http://developer.android.com/sdk/index.html 
-
-3. Install SDK platform
-   For detailed instructions follow: http://developer.android.com/sdk/installing/index.html
-
-4. Download and Install ADT plugin for Eclipse
-   Follow link: http://developer.android.com/sdk/installing/installing-adt.html
-
-5. Create an Android virtual device
    In Eclipse, go to window, select Android Virtual device(AVD) Manager. click New.
    'Create new Android virtual device' dialog appears. Fill up AVD name, select a 
    'Device' and 'Target' from drop-down menu. Provide SD card size. Click on create AVD.
 
-6. In Eclipse, go to ADT -> Preferences -> Make sure the Android SDK and JDK are 
-   pointing to the SDK and JDK installed on your computer.
-
-7. Open eclipse and import the project folder in your current workspace.
+3. Open eclipse and import the project folder in your current workspace.
    File-> Import-> Android-> Existing Android code into workspace
    Select the root directory to be the project folder and tick "Copy projects into workspace". 
    Next > Finish.
 
-8. Build and run the application as an Android application. 
-   The emulator should be launched after a few minutes.
+4. Build and run the application as an Android application. The emulator will be launched.
+
+5. Optionally to run/debug on a real device, connect the Android device using USB cable and enable "USB debugging" by
+   going to Android's settings -> { } Developer options -> check  "USB debugging".
+ 
+ REFERENCES:
+ -----------
+
+1. http://developer.android.com/training/basics/firstapp/running-app.html
+
