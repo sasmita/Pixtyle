@@ -1,4 +1,3 @@
-
  * Copyright © 2013 Sisinty Sasmita Patra
  * Pixtyle is an Open source android application where you can add different styles to your pictures.
  * This Program is a free software: you can redistribute it and/or modify under the terms of the GNU 
@@ -15,6 +14,12 @@
  * Email:  spatra@pdx.edu
  * Repository Link: https://github.com/sasmita/Pixtyle
  
+
+![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.png)
+
+![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.png)
+
+![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.png)
 
 
 TO USE THE APPLICATION ON AN ANDROID DEVICE
