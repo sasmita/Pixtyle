@@ -31,17 +31,11 @@ USER DOCUMENT
 
  Here are few screenshots of the Pixtyle app
 
-5. The app has a camera button and a BlakAndWhite button
+5. The app has a camera button and a BlakAndWhite button ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.jpg)
 
-![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.jpg)
-
-6. When You click on the Camera button, It takes the picture and shows. This is a sample screenshot we get after clicking on camera button 
-
-![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.jpg)
+6. When You click on the Camera button, It takes the picture and shows. This is a sample screenshot we get after clicking on camera button ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.jpg)
   
-7. When you click on BlackAndWhite button you can see the black and white image.
-
-![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.jpg)  
+7. When you click on BlackAndWhite button you can see the black and white image. ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.jpg)  
 
    
 ### REFERENCES:
