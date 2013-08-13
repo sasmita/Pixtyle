@@ -15,9 +15,9 @@
  * Repository Link: https://github.com/sasmita/Pixtyle
  
 
-                            ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.jpg)
+![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.jpg)
 
-                            ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.jpg)
+![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.jpg)
                             
                             ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.jpg)  
 
