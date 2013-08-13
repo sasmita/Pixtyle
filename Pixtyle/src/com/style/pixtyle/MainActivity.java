@@ -1,21 +1,4 @@
-/*
- * Copyright © 2013 Sisinty Sasmita Patra
- * Pixtyle is an Open source android application where you can add different styles to your pictures.
- * This Program is a free software: you can redistribute it and/or modify under the terms of the GNU 
- * General Public License as published by the Free Software Foundation, either version 3 of the 
- * license or, at your option any later version. This Program is distributed in the hope that it 
- * will be useful, but WITHOUT ANY WARRANTY;  without even the implied warranty of MERCHANTABILITY 
- * or FITNESS FOR A PARTICULAR PURPOSE.
- * 
- * See the GNU GENERAL PUBLIC LICENSE for more details: http://www.gnu.org/licenses/.
- * Please see the License file in this distribution for license terms.
- * Link to the License file: http://github.com/sasmita/Pixtyle/blob/master/License.txt
- *
- * Author: Sisinty Sasmita Patra
- * Email:  spatra@pdx.edu
- * Repository Link: https://github.com/sasmita/Pixtyle
- */
-package com.example.pixtyle;
+package com.style.pixtyle;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -35,6 +18,7 @@ import android.util.Log;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 import java.util.Date;
+
 import android.widget.Toast;
 
 
@@ -46,7 +30,8 @@ public class MainActivity extends Activity {
     private RenderScript mRS;
     private Allocation mInAllocation;
     private Allocation mOutAllocation;
-    private ScriptC_mono mScript;
+    private ScriptC_bw mScript_bw;
+    private ScriptC_invert mScript_invert;
 
     // Used for camera activity
 	private static final String TAG = "CallCamera";
@@ -65,6 +50,8 @@ public class MainActivity extends Activity {
         imgView = (ImageView) findViewById(R.id.display);
 		Button callCameraButton = (Button) findViewById(R.id.button_callcamera);
 		Button bwButton = (Button) findViewById(R.id.button_bw);
+		Button saveButton =(Button) findViewById(R.id.button_saveimg);
+		Button invertButton =(Button) findViewById(R.id.button_invert);
 		
 		callCameraButton.setOnClickListener( new View.OnClickListener() {
 			public void onClick(View view) {
@@ -82,6 +69,23 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+		saveButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		
+		invertButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				applyStyleInvert(fileUri.getPath());
+				
+			}
+		});
 	}
 	
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -150,12 +154,42 @@ public class MainActivity extends Activity {
                                                      Allocation.MipmapControl.MIPMAP_NONE,
                                                      Allocation.USAGE_SCRIPT);
 
-        mScript = new ScriptC_mono(mRS, getResources(), R.raw.mono);
-        mScript.forEach_root(mInAllocation, mOutAllocation);
+        mScript_bw = new ScriptC_bw(mRS, getResources(), R.raw.bw);
+        mScript_bw.forEach_root(mInAllocation, mOutAllocation);
         
         mOutAllocation.copyTo(mBitmapOut);
         
         imgView.setImageBitmap(mBitmapOut);
     }
+	
+	private void applyStyleInvert(String photoUri) {
+		File imageFile = new File (photoUri);
+		
+		mBitmapIn = BitmapFactory.decodeFile(imageFile.getAbsolutePath());	
+	    mBitmapOut = Bitmap.createBitmap(mBitmapIn.getWidth(), mBitmapIn.getHeight(),
+	                                         mBitmapIn.getConfig());
+		  
+	    mRS = RenderScript.create(this);
+        mInAllocation = Allocation.createFromBitmap(mRS, mBitmapIn,
+                                                    Allocation.MipmapControl.MIPMAP_NONE,
+                                                    Allocation.USAGE_SCRIPT);
+        mOutAllocation = Allocation.createFromBitmap(mRS, mBitmapOut,
+                                                     Allocation.MipmapControl.MIPMAP_NONE,
+                                                     Allocation.USAGE_SCRIPT);
+
+        mScript_invert = new ScriptC_invert(mRS, getResources(), R.raw.invert);
+        mScript_invert.forEach_root(mInAllocation, mOutAllocation);
+        
+        mOutAllocation.copyTo(mBitmapOut);
+        
+        imgView.setImageBitmap(mBitmapOut);
+    }
+/*	private void galleryAddPic() {
+	    Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+	    File f = new File(mCurrentPhotoPath);
+	    Uri contentUri = Uri.fromFile(f);
+	    mediaScanIntent.setData(contentUri);
+	    this.sendBroadcast(mediaScanIntent);
+	}*/
 
 }
