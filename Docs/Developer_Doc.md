@@ -40,7 +40,7 @@ DEVELOPER DOCUMENT
  
 ### ADDING A NEW STYLE
 
-1. Create a RenderScript file inside src folder, e.g. invert.rs. Here is a code snippet of invert.rs
+ Create a RenderScript file inside src folder, e.g. invert.rs. Here is a code snippet of invert.rs
 
 <pre>
     void root(const uchar4 *v_in, uchar4 *v_out) 
@@ -55,16 +55,6 @@ DEVELOPER DOCUMENT
         *v_out = rsPackColorTo8888(f3_out);
     }
 </pre>
-
-This will automatically generate ScriptC_invert.java file. Create a member variable using ScriptC_invert class. Using this member variable we can apply a new style(in this case invert).
-
-2. Define two unsigned character(uchar) variables, one for input and another for output.
-
-3. Convert uchar variable to float to make the math operations more easier.
-
-4. Code to add your style
-
-5. Convert the resulting output from float to uchar. 
 
 
 ### REFERENCES
