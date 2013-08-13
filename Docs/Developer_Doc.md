@@ -43,8 +43,9 @@ DEVELOPER DOCUMENT
 1. Create a RenderScript file inside src folder, e.g. invert.rs .
 
    Here is a code snippet of invert.rs
-
-   void root(const uchar4 *v_in, uchar4 *v_out) {
+   
+    void root(const uchar4 *v_in, uchar4 *v_out) 
+    {
      float4 f4_in = rsUnpackColor8888(*v_in);
      float3 f3_out; 
     
@@ -53,7 +54,7 @@ DEVELOPER DOCUMENT
      f3_out.b = 1 - f4_in.b;
     
      *v_out = rsPackColorTo8888(f3_out);
-    }
+     }
   
    This will automatically generate ScriptC_invert.java file. 
    Create a member variable using ScriptC_invert class .
