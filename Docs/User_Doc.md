@@ -20,8 +20,7 @@ USER DOCUMENT
  Repository Link: https://github.com/sasmita/Pixtyle
  
 
-TO USE THE APPLICATION ON AN ANDROID DEVICE
-===========================================
+### TO USE THE APPLICATION ON AN ANDROID DEVICE
 
 1. Dowanld and isntall the Android SDK : http://developer.android.com/sdk/index.html
 
@@ -46,7 +45,6 @@ TO USE THE APPLICATION ON AN ANDROID DEVICE
 
 
    
- REFERENCES:
- -----------
+### REFERENCES:
 
 1. http://developer.android.com/training/basics/firstapp/running-app.html
