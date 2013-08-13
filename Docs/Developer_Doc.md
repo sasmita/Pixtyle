@@ -42,6 +42,28 @@ DEVELOPER DOCUMENT
 
 1. Create a RenderScript file inside src folder, e.g. invert.rs .
 
+   Here is a code snippet of invert.rs
+   
+   #pragma rs java_package_name(com.style.pixtyle)
+   #pragma version(1)
+
+   void root(const uchar4 *v_in, uchar4 *v_out) {
+
+    float4 f4_in = rsUnpackColor8888(*v_in);
+
+    float3 f3_out; // = (f4_in.r + f4_in.g + f4_in.b)/3;
+    
+    f3_out.r = 1 - f4_in.r;
+    f3_out.g = 1 - f4_in.g;
+    f3_out.b = 1 - f4_in.b;
+    
+    *v_out = rsPackColorTo8888(f3_out);
+    }
+  
+   This will automatically generate ScriptC_invert.java file. 
+   Create a member variable using ScriptC_invert class .
+   Using this member variable we can apply a new style(in this case invert).
+
 2. Define two unsigned character(uchar) variables, one for input and another for output.
 
 3. Convert uchar variable to float to make the math operations more easier.
