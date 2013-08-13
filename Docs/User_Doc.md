@@ -18,7 +18,6 @@ USER DOCUMENT
  Email:  spatra@pdx.edu
  Repository Link: https://github.com/sasmita/Pixtyle
  
-
 ### TO USE THE APPLICATION ON AN ANDROID DEVICE
 
 1. Dowanld and isntall the Android SDK : http://developer.android.com/sdk/index.html
@@ -30,12 +29,11 @@ USER DOCUMENT
 
 4. Now Application is ready to use.
 
- Here are a few screenshots of my app
+ Here are few screenshots of the Pixtyle app
 
 5. The app has a camera button and a BlakAndWhite button
 
 ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.jpg)
-
 
 6. When You click on the Camera button, It takes the picture and shows. This is a sample screenshot we get after clicking on camera button 
 
@@ -44,7 +42,6 @@ USER DOCUMENT
 7. When you click on BlackAndWhite button you can see the black and white image.
 
 ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.jpg)  
-
 
    
 ### REFERENCES:
