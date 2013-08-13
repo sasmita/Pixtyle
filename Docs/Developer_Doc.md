@@ -38,6 +38,19 @@ DEVELOPER DOCUMENT
 5. Optionally to run/debug on a real device, connect the Android device using USB cable and enable "USB debugging" by
    going to Android's settings -> { } Developer options -> check  "USB debugging".
  
+### ADDING A NEW STYLE
+
+1. Create a RenderScript file, for e.g invert.rs inside src file.
+
+2. define two unsigned character variables, one for input and other for output.
+
+3. Convert uchar variable to float to make the math operations more easier.
+
+4. Code to add your style
+
+5. Convert the resulting output from float to unsigned character. 
+
+
 ### REFERENCES
  
 1. http://developer.android.com/training/basics/firstapp/running-app.html
