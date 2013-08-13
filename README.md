@@ -31,9 +31,9 @@ Here is the link to repository: https://github.com/sasmita/Pixtyle
 
 ### DOCUMENTS
 
-USER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/User_Doc.txt
+USER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/Docs/User_Doc.md
 
-DEVELOPER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/Developer_Doc.txt
+DEVELOPER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/Docs/Developer_Doc.md
 
 ### ISSUES / ENHANCEMENTS
 
