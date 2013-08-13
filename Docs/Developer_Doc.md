@@ -1,6 +1,5 @@
- 
-  DEVELOPER DOCUMENT
-  ==================
+DEVELOPER DOCUMENT
+==================
  
   Copyright © 2013 Sisinty Sasmita Patra
  
@@ -21,10 +20,10 @@
  
  
 
-INSTALLATION GUIDE FOR DEVELOPERS
------------------------------------ 
+ INSTALLATION GUIDE FOR DEVELOPERS
+ ----------------------------------- 
  
- Instructions to build the Application:
+   Instructions to build the Application:
 
 1. Download Android SDK from : http://developer.android.com/sdk/index.html
 
