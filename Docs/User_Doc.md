@@ -32,12 +32,12 @@ USER DOCUMENT
 
  Here are a few screenshots of my app
 
-5. Initially when you open the app, this is how it looks. It has a camera button and a BlakAndWhite button
+5. The app has a camera button and a BlakAndWhite button
 
 ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/initial.jpg)
 
 
-6. When You click on the Camera button, It takes the picture and shows. This is a sample screenshot taken using camera button 
+6. When You click on the Camera button, It takes the picture and shows. This is a sample screenshot we get after clicking on camera button 
 
 ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.jpg)
   
