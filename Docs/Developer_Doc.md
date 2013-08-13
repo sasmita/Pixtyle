@@ -40,15 +40,15 @@ DEVELOPER DOCUMENT
  
 ### ADDING A NEW STYLE
 
-1. Create a RenderScript file, for e.g invert.rs inside src file.
+1. Create a RenderScript file inside src folder, e.g. invert.rs .
 
-2. define two unsigned character variables, one for input and other for output.
+2. Define two unsigned character(uchar) variables, one for input and another for output.
 
 3. Convert uchar variable to float to make the math operations more easier.
 
 4. Code to add your style
 
-5. Convert the resulting output from float to unsigned character. 
+5. Convert the resulting output from float to uchar. 
 
 
 ### REFERENCES
