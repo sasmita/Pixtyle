@@ -19,7 +19,7 @@ DEVELOPER DOCUMENT
   Repository Link: https://github.com/sasmita/Pixtyle
  
  
- ### INSTALLATION GUIDE FOR DEVELOPERS
+### INSTALLATION GUIDE FOR DEVELOPERS
  
  
    Instructions to build the Application:
