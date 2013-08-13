@@ -18,11 +18,7 @@ DEVELOPER DOCUMENT
   Email:  spatra@pdx.edu
   Repository Link: https://github.com/sasmita/Pixtyle
  
- 
 ### INSTALLATION GUIDE FOR DEVELOPERS
- 
- 
-   Instructions to build the Application:
 
 1. Download Android SDK from : http://developer.android.com/sdk/index.html
 
@@ -42,8 +38,7 @@ DEVELOPER DOCUMENT
 5. Optionally to run/debug on a real device, connect the Android device using USB cable and enable "USB debugging" by
    going to Android's settings -> { } Developer options -> check  "USB debugging".
  
- REFERENCES:
- -----------
-
+### REFERENCES
+ 
 1. http://developer.android.com/training/basics/firstapp/running-app.html
 
