@@ -19,7 +19,7 @@
 
 ![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/original.jpg)
 
-![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.jpg)
+![ScreenShot](https://raw.github.com/sasmita/Pixtyle/master/Docs/bw.jpg)  
 
 
 TO USE THE APPLICATION ON AN ANDROID DEVICE
