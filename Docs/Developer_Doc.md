@@ -56,6 +56,8 @@ DEVELOPER DOCUMENT
     }
 </pre>
 
+ Once .rs file is created and build, it will automatically generate java file.
+ This class can be used to apply the style
 
 ### REFERENCES
  
