@@ -38,9 +38,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_callcamera"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="21dp"
-        android:src="@drawable/icon" />
+        android:src="@drawable/initial" />
 
         <Button
         android:id="@+id/button_saveimg"

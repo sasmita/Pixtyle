@@ -64,12 +64,18 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+				
         imgView = (ImageView) findViewById(R.id.display);
 		Button callCameraButton = (Button) findViewById(R.id.button_callcamera);
 		Button bwButton = (Button) findViewById(R.id.button_bw);
 		Button saveButton =(Button) findViewById(R.id.button_saveimg);
 		Button invertButton =(Button) findViewById(R.id.button_invert);
+		
+		// Initializing mBitmapIn
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inPreferredConfig = Bitmap.Config.ARGB_8888;
+        mBitmapIn = BitmapFactory.decodeResource(getResources(), R.drawable.initial, options);
+        mBitmapOut = mBitmapIn;
 		
 		callCameraButton.setOnClickListener( new View.OnClickListener() {
 			public void onClick(View view) {
@@ -94,14 +100,14 @@ public class MainActivity extends Activity {
 		bwButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-			      applyStyleBW(fileUri.getPath());
+			      applyStyleBW(); //fileUri.getPath());
 			}
 		});
 		
 		invertButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				applyStyleInvert(fileUri.getPath());
+				applyStyleInvert(); //fileUri.getPath());
 			}
 		});
 		
@@ -160,10 +166,8 @@ public class MainActivity extends Activity {
         imgView.setImageBitmap(mBitmapIn);
     }
 	
-	private void applyStyleBW(String photoUri) {
-		File imageFile = new File (photoUri);
-		
-		mBitmapIn = BitmapFactory.decodeFile(imageFile.getAbsolutePath());	
+	private void applyStyleBW() {
+
 	    mBitmapOut = Bitmap.createBitmap(mBitmapIn.getWidth(), mBitmapIn.getHeight(),
 	                                         mBitmapIn.getConfig());
 		  
@@ -183,10 +187,8 @@ public class MainActivity extends Activity {
         imgView.setImageBitmap(mBitmapOut);
     }
 	
-	private void applyStyleInvert(String photoUri) {
-		File imageFile = new File (photoUri);
-		
-		mBitmapIn = BitmapFactory.decodeFile(imageFile.getAbsolutePath());	
+	private void applyStyleInvert() {
+
 	    mBitmapOut = Bitmap.createBitmap(mBitmapIn.getWidth(), mBitmapIn.getHeight(),
 	                                         mBitmapIn.getConfig());
 		  
