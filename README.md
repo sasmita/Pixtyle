@@ -15,6 +15,10 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+### NAME:
+
+#####Sisinty Sasmita Patra
     
 ### PROJECT NAME
 
@@ -29,7 +33,6 @@ Application developed using Android 4.3.3 API level 18.
 
 ### CONTACT DETAILS
 
-Name : Sisinty Sasmita Patra                                                                                              
 Email: spatra@pdx.edu / sasmi.sashi@gmail.com
 
 ### REPOSITORY LINK
