@@ -27,8 +27,9 @@ Pixtyle
 ### PROJECT DESCRIPTION
 
 Pixtyle is an open source android application where you can add different styles to pictures. It has a camera button 
-to captures image using and different style buttons to add styles. This application uses RenderScript framework to 
-accelerate the computations. 
+to captures image, different style buttons to add styles, and save button which saves into gallery. This application 
+uses RenderScript framework to accelerate the computations for adding style to the images. For each style a kernel is
+implented using render script. 
 
 This application is developed using Android 4.3.3 API level 18.
 
@@ -46,13 +47,17 @@ USER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/Docs/User_Doc.md
 
 DEVELOPER DOCUMENT : https://github.com/sasmita/Pixtyle/blob/master/Docs/Developer_Doc.md
 
+### BUILD INSTRUCTIONS 
+
+Please refer to the developer document for build instructions : https://github.com/sasmita/Pixtyle/blob/master/Docs/Developer_Doc.md
+
 ### ISSUES / ENHANCEMENTS
 
 Link to issues/enhancements: https://github.com/sasmita/Pixtyle/issues
 
 ### LICENSE
 
-Licensed under GNU GENERAL PUBLIC LICENSE
+Licensed under GNU GENERAL PUBLIC LICENSE.
 
 Please see the file License in this distribution for license terms. Here is the link
 https://github.com/sasmita/Pixtyle/blob/master/License.txt
