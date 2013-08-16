@@ -100,14 +100,14 @@ public class MainActivity extends Activity {
 		bwButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-			      applyStyleBW(); //fileUri.getPath());
+			      applyStyleBW(); 
 			}
 		});
 		
 		invertButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				applyStyleInvert(); //fileUri.getPath());
+				applyStyleInvert(); 
 			}
 		});
 		
